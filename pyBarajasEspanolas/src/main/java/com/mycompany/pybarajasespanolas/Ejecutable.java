@@ -8,7 +8,7 @@ public class Ejecutable {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         Random r = new Random();
-        int numCart1, numCart2, paloCart1, paloCart2, contManos, contPartidas, puntosJug1, puntosJug2;
+        int numCart1, numCart2, paloCart1, paloCart2, contManos, puntosJug1, puntosJug2;
         String jugador1, jugador2, paloCart1Escrito, paloCart2Escrito;
         System.out.println("Ingrese el nombre del primer jugador:");
         jugador1 = entrada.next();
